@@ -1,0 +1,217 @@
+<!-- File: privacy.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — [Your Company Name]</title>
+  <meta name="description" content="Privacy Policy for IT Related" />
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#f8fafc;
+      --accent:#d62828; /* change to brand color */
+      --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#fff 0%,#fbfbff 100%);
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:40px 20px;
+      display:flex;
+      justify-content:center;
+      font-size:16px;
+      line-height:1.6;
+    }
+    .container{
+      width:100%;
+      max-width:var(--maxw);
+    }
+    header{
+      display:flex;
+      gap:16px;
+      align-items:center;
+      margin-bottom:20px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--accent),#ff8a00);
+      display:flex;align-items:center;justify-content:center;color:white;font-weight:700;
+      box-shadow:0 6px 18px rgba(13,17,23,0.08);
+      flex:0 0 56px;
+    }
+    h1{font-size:22px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    main{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:28px;
+      box-shadow:0 8px 30px rgba(15,23,42,0.06);
+    }
+    section{margin-bottom:18px}
+    h2{font-size:18px;margin:0 0 8px}
+    ul{margin:8px 0 0 20px}
+    code{background:#eef2ff;padding:2px 6px;border-radius:6px;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Helvetica Neue", monospace;}
+    footer{margin-top:12px;color:var(--muted);font-size:14px}
+    .muted{color:var(--muted)}
+    .highlight{color:var(--accent)}
+    a{color:var(--accent); text-decoration:none}
+    .btn{
+      display:inline-block;padding:10px 14px;border-radius:10px;background:white;border:1px solid rgba(0,0,0,0.06);
+      text-decoration:none;color:inherit;margin-top:6px;
+    }
+
+    @media (max-width:520px){
+      body{padding:18px}
+      .logo{width:48px;height:48px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-labelledby="title">
+    <header>
+      <div class="logo" aria-hidden="true">PC</div>
+      <div>
+        <h1 id="title">Privacy Policy</h1>
+        <p class="lead">Effective date: <strong id="effective-date">[Effective Date — e.g. July 1, 2025]</strong></p>
+      </div>
+    </header>
+
+    <main>
+      <section aria-labelledby="introduction">
+        <h2 id="introduction">Introduction</h2>
+        <p>
+          [Your Company Name] ("we", "us", "our") respects your privacy and is committed to protecting it through this Privacy Policy.
+          This page explains what information we collect, how we use it, with whom we share it, and your choices.
+        </p>
+      </section>
+
+      <section aria-labelledby="scope">
+        <h2 id="scope">Scope</h2>
+        <p>This policy applies to information collected through our website at <code>[your-domain.com]</code> and any related services (collectively, the "Service").</p>
+      </section>
+
+      <section aria-labelledby="what-we-collect">
+        <h2 id="what-we-collect">Information We Collect</h2>
+        <p>We may collect the following categories of information:</p>
+        <ul>
+          <li><strong>Personal information you give us:</strong> name, email address, phone number, or other contact details when you contact us or sign up for newsletters.</li>
+          <li><strong>Automatically collected data:</strong> IP address, browser type, operating system, pages visited, referring/exit pages, and timestamps (logs).</li>
+          <li><strong>Cookies and similar technologies:</strong> small data files stored on your device to remember preferences and support analytics.</li>
+          <li><strong>Third-party data:</strong> information from services you connect (for example, OAuth providers) or publicly available sources, if applicable.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="how-we-use">
+        <h2 id="how-we-use">How We Use Your Information</h2>
+        <p>We use collected information for purposes including:</p>
+        <ul>
+          <li>Providing, operating, and maintaining the Service.</li>
+          <li>Responding to inquiries and communicating with you.</li>
+          <li>Personalizing content and improving user experience.</li>
+          <li>Analyzing usage and performance, detecting and preventing fraud or abuse.</li>
+          <li>Complying with legal obligations.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="legal-basis">
+        <h2 id="legal-basis">Legal Basis for Processing (if applicable)</h2>
+        <p>If you are in the European Economic Area (EEA), we rely on various legal bases to process your data, including:</p>
+        <ul>
+          <li><strong>Consent</strong> — where you have given consent (e.g., marketing emails).</li>
+          <li><strong>Contract</strong> — to perform services you requested.</li>
+          <li><strong>Legitimate interests</strong> — for analytics, site security, and fraud prevention (balanced with your rights).</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="cookies">
+        <h2 id="cookies">Cookies & Tracking</h2>
+        <p>We and our service providers use cookies and similar technologies for functionality and analytics. You can manage cookie preferences through your browser settings. Typical categories include:</p>
+        <ul>
+          <li><strong>Essential cookies:</strong> required for site operation.</li>
+          <li><strong>Performance & analytics:</strong> help us understand site usage.</li>
+          <li><strong>Marketing:</strong> (if used) help deliver relevant ads via third parties.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="third-parties">
+        <h2 id="third-parties">Third-Party Services</h2>
+        <p>We may share information with third-party vendors who perform services on our behalf, such as hosting, analytics, email delivery, and payment processors. These providers are authorized to use your personal information only as necessary to provide their services to us.</p>
+        <p>Examples (replace with the services you actually use): Google Analytics, Cloud hosting providers, Email marketing providers.</p>
+      </section>
+
+      <section aria-labelledby="data-retention">
+        <h2 id="data-retention">Data Retention</h2>
+        <p>We retain personal data only as long as necessary for the purposes described in this policy or to meet legal obligations. Log data and analytics may be retained in aggregated or pseudonymized form for longer-term analysis.</p>
+      </section>
+
+      <section aria-labelledby="security">
+        <h2 id="security">Security</h2>
+        <p>We implement reasonable technical and organizational measures to protect personal data. However, no method of transmission or storage is 100% secure — absolute security cannot be guaranteed.</p>
+      </section>
+
+      <section aria-labelledby="your-rights">
+        <h2 id="your-rights">Your Rights</h2>
+        <p>Depending on your jurisdiction, you may have rights including:</p>
+        <ul>
+          <li>Access to the personal data we hold about you.</li>
+          <li>Request correction or deletion of your data.</li>
+          <li>Object to or restrict processing.</li>
+          <li>Export a copy of your data (data portability).</li>
+          <li>Withdraw consent where processing is based on consent.</li>
+        </ul>
+        <p>To exercise these rights, contact us at <a href="mailto:[email@example.com]">[email@example.com]</a>. We may request identity verification before fulfilling requests.</p>
+      </section>
+
+      <section aria-labelledby="links">
+        <h2 id="links">External Links</h2>
+        <p>Our Service may contain links to external websites. We are not responsible for the privacy practices of those sites — please review their policies separately.</p>
+      </section>
+
+      <section aria-labelledby="children">
+        <h2 id="children">Children's Privacy</h2>
+        <p>Our Service is not directed at children under 16. We do not knowingly collect personal data from children under 16. If you believe we have collected such data, contact us and we will delete it where required by law.</p>
+      </section>
+
+      <section aria-labelledby="changes">
+        <h2 id="changes">Changes to This Policy</h2>
+        <p>We may update this policy from time to time. When we do, we will update the <strong>Effective date</strong> at the top of this page. Material changes will be communicated when required by law.</p>
+      </section>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Contact Us</h2>
+        <p>If you have questions or requests about this Privacy Policy, please contact:</p>
+        <p>
+          <strong>[Your Company Name]</strong><br />
+          Email: <a href="mailto:[email@example.com]">[email@example.com]</a><br />
+          Address: [Optional — your business address]
+        </p>
+      </section>
+
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Legal Disclaimer</h2>
+        <p class="muted">This Privacy Policy is provided for informational purposes and does not constitute legal advice. Consider consulting a qualified attorney to adapt this policy to your jurisdiction and business practices (for example, to comply with GDPR, CCPA/CPRA, or other local data protection laws).</p>
+      </section>
+
+      <footer>
+        <p>Last updated: <span id="last-updated">[Last Updated Date — e.g. July 1, 2025]</span></p>
+        <p class="muted">© <span id="company-name">[Your Company Name]</span>. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <p style="margin-top:12px;color:var(--muted);font-size:13px">
+      Quick actions:
+      <a class="btn" href="mailto:[email@example.com]?subject=Privacy%20Policy%20Request">Contact privacy team</a>
+      <a class="btn" href="/" style="margin-left:8px">Back to site</a>
+    </p>
+  </div>
+</body>
+</html>
+Quick notes & customizat
